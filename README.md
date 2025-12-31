@@ -110,6 +110,9 @@ php artisan key:generate
 # Set up database (SQLite by default)
 php artisan migrate
 
+# Scrape articles from BeyondChats website to populate the database
+php artisan scrape:beyondchats
+
 # Start the development server
 php artisan serve
 ```
